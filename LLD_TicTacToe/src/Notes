@@ -1,0 +1,32 @@
+2 types of package structure
+
+1. packaging by layer - controller, services, repository / DAO, model
+example - User, Movie, Ticket  entities
+
+controller
+    /UserController
+    /MovieController
+    /TicketController
+
+service
+    /UserService
+    /MovieService
+
+2. packaging by feature - big companies follows this structure as a feature is that big
+keep all classes related to a feature / entity together
+
+example - User, Movie, Ticket  entities
+
+user
+
+    /UserController
+    /UserService
+    /UserRepo
+    /User
+
+movie
+    /MovieController
+    /MovieService
+    /MovieRepo
+    /Movie
+
