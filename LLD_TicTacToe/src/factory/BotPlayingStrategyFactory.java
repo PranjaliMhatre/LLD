@@ -1,8 +1,8 @@
 package factory;
 
 import model.BotDifficultyLevel;
-import strategy.BotPlayingStrategy;
-import strategy.LinearBotPlayingStrategy;
+import strategy.botPlayingStrategy.BotPlayingStrategy;
+import strategy.botPlayingStrategy.LinearBotPlayingStrategy;
 
 public class BotPlayingStrategyFactory {
 

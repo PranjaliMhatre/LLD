@@ -1,7 +1,7 @@
 package model;
 
 import factory.BotPlayingStrategyFactory;
-import strategy.BotPlayingStrategy;
+import strategy.botPlayingStrategy.BotPlayingStrategy;
 
 public class Bot extends Player{
 
